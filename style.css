@@ -1,4 +1,45 @@
+/* rest to basic styling*/
 html {
   /*specifies the font*/
-  
+  font-family: "DM Serif Display", sans-serif;
+  /*scrolling behavior for a scrolling box*/
+  scroll-behavior:smooth;
+}
+
+li {
+  /*remove the markers/bullets*/
+  list-style: none;
+}
+
+a {
+  /*inherit from value from its parent element*/
+  font: inherit;
+  /*remove underlines from links*/
+  text-decoration: none
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+img,
+svg,
+ion-icon,
+span,
+button{
+  /*starts on a new line*/
+display:block;
+
+/*container*/
+.container {
+  /*relative to the first parent element*/
+  position: relative;
+  max-width: 1440px:
+  /*center align HTML elements*/
+  margin: auto;
+  background: #ffffff;
+  /* if overflow hidden from view*/
+  overflow: hidden;
 }
